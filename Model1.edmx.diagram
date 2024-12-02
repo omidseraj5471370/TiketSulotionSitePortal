@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e841a632572436e88b746268fa4033e" Name="Diagram1" ZoomLevel="17">
+        <EntityTypeShape EntityType="crm_MSCRMModel.AccountBase" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="crm_MSCRMModel.AnnotationBase" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="crm_MSCRMModel.ContactBase" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="crm_MSCRMModel.LeadBase" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="crm_MSCRMModel.new_LunaTechSupportBase" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="crm_MSCRMModel.account_master_account" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.account_originating_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.account_parent_account" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.account_primary_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.lead_parent_account" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.contact_master_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.contact_originating_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.contact_parent_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.lead_parent_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="crm_MSCRMModel.lead_master_lead" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="crm_MSCRMModel.new_list_contact" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="crm_MSCRMModel.new_LunaTechSupport" Width="1.5" PointX="10.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
